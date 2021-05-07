@@ -1,23 +1,32 @@
+.button_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 10vh;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(16, auto);
-    background-color: #2196F3;
+    background-color: black;
     padding: 10px;
 }
 
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.932);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    padding: 5px;
     font-size: 30px;
     text-align: center;
   }
